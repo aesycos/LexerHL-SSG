@@ -1,0 +1,39 @@
+{
+  "title": "Hello World in C++",
+  "slug": "hello-world",
+  "template": "index.html",
+  "styles" : ["code", "nord"],
+  "scripts": ["scripts"],
+  "sections": [
+    {
+      "id": "section-one",
+      "subsections": [
+        {
+          "blocks": [
+            { "type": "text", "content": "Let’s start with a minimal C++ program." },
+            { "type": "code", "language": "c++", "file": "hello.cpp" },
+            { "type": "text", "content": "lorem ipsum dolor" },
+            { "type": "text", "content": "seclorum utra ignatio pluribus" },
+            { "type": "code", "language": "c++", "file": "hello2.cpp" }
+          ]
+        },
+        {
+          "blocks": [
+            { "type": "text", "content": "This is a subsection" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-two",
+      "subsections": [
+        {
+          "blocks": [
+            { "type": "text", "content": "Let's improve this code with some more code." },
+            { "type": "code", "language": "c++", "file": "hello3.cpp" }
+          ]
+        }
+      ]
+    }
+  ]
+}

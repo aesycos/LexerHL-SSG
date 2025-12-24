@@ -1,0 +1,16 @@
+/* nord.css
+*/
+:root {
+    /* Nord Palette Variables */
+    --nord0: #2e3440; /* Background */
+    --nord3: #4c566a; /* Comments */
+    --nord4: #d8dee9; /* Base Text (Snow Storm) */
+    --nord6: #eceff4; /* Bright Text */
+    --nord7: #8fbcbb; /* Frost - Cyan (Special Keywords) */
+    --nord8: #88c0d0; /* Frost - Blue (Identifiers) */
+    --nord9: #81a1c1; /* Frost - Medium Blue (Functions/Keywords) */
+    --nord10: #5e81ac; /* Frost - Dark Blue (Operators) */
+    --nord12: #d08770; /* Aurora - Orange (Preprocessor) */
+    --nord13: #ebcb8b; /* Aurora - Yellow (Types/Standard Keywords) */
+    --nord14: #a3be8c; /* Aurora - Green (Strings/Headers) */
+}

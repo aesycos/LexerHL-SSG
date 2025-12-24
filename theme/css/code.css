@@ -1,0 +1,80 @@
+/* code.css
+*/
+code {
+	position: relative;
+    background-color: var(--nord0);
+    color: var(--nord4);
+    padding: 1rem;
+    border-radius: 13px;
+    display: block;
+    font-family: 'Fira Code', monospace;
+
+    & span.code-filename {
+    	display: block;
+    	color: var(--nord4);
+    }
+
+    & button.copy-btn {
+    	background-color: var(--nord0);
+    	color: var(--nord3);
+    	padding: 0.5rem 1rem;
+    	border-radius: 13px;
+        border: none;
+    	position: absolute;
+    	top: 0.5rem;
+    	right: 0.5rem;
+    	text-decoration: none;
+    	transition: background-color 0.2s;
+    }
+    & button.copy-btn:hover {
+        background-color: var(--nord3);
+        color: var(--nord4);
+        text-decoration: none; /* Ensures underline doesn't return on hover */
+    }
+}
+
+code[data-type="c++"] {
+    & span.standard-keyword {
+        /* Keywords like int, if, while */
+        color: var(--nord13); 
+    }
+    & span.standard-identifier {
+        /* Standard variable names */
+        color: var(--nord4);
+    }
+    & span.special-identifier {
+        /* Types or Class names */
+        color: var(--nord7);
+    }
+    & span.operator {
+        /* Symbols like +, -, &&, :: */
+        color: var(--nord10);
+    }
+    & span.punctuator {
+        /* Braces, semicolons, parentheses */
+        color: var(--nord3);
+    }
+    & span.string
+    {
+        /* #include, #define */
+        color: var(--nord12);
+    }
+    & span.preprocessor-directive {
+        /* #include, #define */
+        color: var(--nord12);
+    }
+    & span.header-name {
+        /* <iostream> or "my_file.h" */
+        color: var(--nord14);
+    }
+    & span.comment {
+        /* // and /* ... */
+        color: var(--nord3);
+        font-style: italic;
+    }
+}
+
+
+code span {
+
+}
